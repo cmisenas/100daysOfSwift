@@ -2,7 +2,7 @@ import XCTest
 import class Foundation.Bundle
 
 final class _00daysTests: XCTestCase {
-    func testExample() throws {
+    func testDay1() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
@@ -30,6 +30,7 @@ final class _00daysTests: XCTestCase {
         let output = String(data: data, encoding: .utf8)
 
         XCTAssertEqual(output!.contains("quick brown fox"), true)
+        XCTAssertEqual(output!.contains("[\"red\", \"blue\", \"green\"]"), true)
         #endif
     }
 

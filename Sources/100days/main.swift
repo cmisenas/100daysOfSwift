@@ -12,3 +12,6 @@ day4.main()
 
 let day5 = Day5()
 day5.main()
+
+let day6 = Day6()
+day6.main()

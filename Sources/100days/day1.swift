@@ -1,6 +1,16 @@
 // Day 1
 
 class Day1 {
+  func main() {
+    createVar()
+    createMultiLineString()
+    createConst()
+    createDouble()
+    createBool()
+    interpolateString()
+    typeAnnotate()
+  }
+
   func createVar() {
     var favoriteShow = "Frasier"
     favoriteShow = "The Office"
@@ -13,7 +23,6 @@ class Day1 {
 
     print(favoriteShow)
     print(age, population)
-
   }
 
   func createMultiLineString() {

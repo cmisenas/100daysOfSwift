@@ -6,3 +6,6 @@ day2.main()
 
 let day3 = Day3()
 day3.main()
+
+let day4 = Day4()
+day4.main()

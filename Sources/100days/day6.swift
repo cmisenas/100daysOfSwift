@@ -7,12 +7,6 @@ class Day6 {
     travel {
       print("poop")
     }
-    travelWithParam {
-      "Going to \($0) for \($1) days"
-    }
-
-    let times2 = times(2)
-    print(10 == times2(5))
   }
 
   func closure() {
@@ -36,17 +30,5 @@ class Day6 {
     print("I'm leaving.")
     action()
     print("I'm here!")
-  }
-
-  func travelWithParam(action: (String, Int) -> String) {
-    print("I'm leaving.")
-    print(action("Bremerton", 5))
-    print("I'm here!")
-  }
-
-  func times(_ n: Int) -> (Int) -> Int {
-    return {
-      n * $0
-    }
   }
 }

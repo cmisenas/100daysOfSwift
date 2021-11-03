@@ -30,3 +30,6 @@ day10.main()
 
 let day11 = Day11()
 day11.main()
+
+let day12 = Day12()
+day12.main()

@@ -16,4 +16,4 @@ Installed Swift on Linux by following [this guide](https://www.raywenderlich.com
 * [x] - Day  9: access control, static properties, and laziness
 * [x] - Day 10: classes and inheritance
 * [x] - Day 11: protocols, extensions, and protocol extensions
-* [ ] - Day 12: optionals, unwrapping, and typecasting
+* [x] - Day 12: optionals, unwrapping, and typecasting
